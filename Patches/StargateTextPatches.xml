@@ -43,14 +43,14 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="StargateMod_DialHomeDevice"]/label[contains(text(), 'dial home device')]</xpath>
         <value>
-            <label>DHD Skipgate Interface</label>
+            <label>Skipgate Interface</label>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="StargateMod_DialHomeDevice"]/description[contains(text(), 'stargate')]</xpath>
         <value>
-			<description>A "DHD" the meaning of this word has been lost to time.\n\nThis ancient device is used to control a skipgate.</description>
+			<description>A "DHD" the meaning of this word has been lost to time.\n\nIt somehow interfaces with an archotech skipgate and allows to enter coordinates.</description>
         </value>
     </Operation>
 <!-- End of renaming the DHD -->
