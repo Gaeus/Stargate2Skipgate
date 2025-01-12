@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- This patch operation finds the mod "Stargates!" -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Stargates!</li>
+        </mods>
+        <!-- This match operation adds a drawOffset value to the graphicData of the StargateMod_DialHomeDevice -->
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="StargateMod_DialHomeDevice"]/graphicData</xpath>
+            <value>
+                <drawOffset>(0,0,0.5)</drawOffset>
+            </value>
+        </match>
+    </Operation>
+</Patch>

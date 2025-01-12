@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Stargates! to Skipgates!</name>
+  <author>Gaeus</author>
+  <packageId>Gaeus.Stargate2Skipgate</packageId>
+  <supportedVersions>
+	  <li>1.2</li>
+      <li>1.3</li>
+	  <li>1.4</li>
+      <li>1.5</li>
+  </supportedVersions>
+<description>
+An update to MrKociak excellent retexture : https://steamcommunity.com/sharedfiles/filedetails/?id=2846471252. 
+This mod integrate the content of the Stargates! mod by CCYT and the retexture of MrKociak in a vanilla friendly way.
+</description>
+<loadAfter>
+    <li>CCYT.StargatesMod</li>
+</loadAfter>
+<modDependencies>
+    <li>
+        <packageId>CCYT.StargatesMod</packageId>
+        <displayName>Stargates!</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2831698056</steamWorkshopUrl>
+    </li>
+</modDependencies>
+</ModMetaData>
