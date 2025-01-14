@@ -50,7 +50,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="StargateMod_DialHomeDevice"]/description[contains(text(), 'stargate')]</xpath>
         <value>
-			<description>A "DHD" the meaning of this word has been lost to time.\n\nIt somehow interfaces with an archotech skipgate and allows to enter coordinates.</description>
+			<description>An extremely old ultratech terminal, sometimes referred as a "DHD" the meaning of this word has been lost to time.\n\nIt somehow interfaces with archotech technologies, and allows to enter coordinates into an archotech skipgate.</description>
         </value>
     </Operation>
 <!-- End of renaming the DHD -->
